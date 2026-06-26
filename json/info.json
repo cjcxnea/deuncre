@@ -1,0 +1,43 @@
+{
+  "userInfo": [
+    {
+      "id": "1002",
+      "testSub": "全国大学英语六级考试(CET6)",
+      "uname": "卢思言",
+      "idCard": "430602200704260161",
+      "examListOne": "0",
+      "examTypeOne": "0",
+      "examItemOne": "0",
+      "examItemOneTime": "2026年3月",
+      "examItemOneIsPass": "y",
+      "examItemOneNum": "0",
+      "examListTwo": "1",
+      "examTypeTwo": "0",
+      "examItemTwo": "二级MS Office高级应用与设计",
+      "examItemTwoTime": "2025年9月",
+      "examItemTwoIsPass": "y",
+      "examItemTwoNum": "6576610040010696",
+      "examListThree": "0",
+      "examTypeThree": "0",
+      "examItemThree": "0",
+      "examItemThreeTime": "0",
+      "examItemThreeIsPass": "y",
+      "examItemThreeNum": "0",
+      "password": "2007siyan!"
+    }
+  ],
+  "verifyInfo": [
+    {
+      "picName": "verify-code-1.jpg",
+      "code": "atrk"
+    },
+    {
+      "picName": "verify-code-2.jpg",
+      "code": "gilc"
+    },
+    {
+      "picName": "verify-code-3.jpg",
+      "code": "4nbk"
+    }
+  ]
+}

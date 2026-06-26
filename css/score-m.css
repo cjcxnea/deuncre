@@ -1,0 +1,220 @@
+.current-position {
+  display: flex;
+  justify-content: space-between;
+  padding: .5rem .625rem .375rem .625rem;
+  border-bottom: .0625rem solid #eee;
+}
+.current-position a,
+.current-position span {
+  font-size: .875rem;
+  color: #666;
+}
+.current-position a {
+  text-decoration: none;
+}
+.current-position-right {
+  color: #666;
+}
+.current-position-right a {
+  display: inline-block;
+}
+.current-position-right span {
+  display: inline-block;
+  width: 1.25rem;
+  height: 1.25rem;
+  background: url(../img/user.png) no-repeat right;
+  background-size: cover;
+  margin-right: -.4em;
+  vertical-align: text-bottom;
+}
+.current-position-right-left {
+  margin-right: .25rem;
+  color: #003f7e;
+}
+.current-position-right-right {
+  margin-left: .25rem;
+  color: #666;
+}
+
+.page-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.2vmin;
+  font-size: 4.53333333vmin;
+  font-weight: 700;
+  color: #003f7e;
+  line-height: 1.5;
+}
+
+.user-info {
+  margin: 3vmin;
+  padding: 0 3vmin;
+  border-radius: 1.5vmin;
+  box-shadow: 0 0 1.8vmin rgb(0 0 0/20%);
+}
+.user-info ul {
+  list-style: none;
+}
+.user-info ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 4.26666667vmin;
+  color: #000;
+  line-height: 10vmin;
+  border-bottom: 0.26666667vmin solid #dadada;
+}
+.user-info li:nth-child(-n+3) .user-info-label {
+  display: inline-block;
+  width: 4em;
+  text-align-last: justify;
+}
+
+.score-info {
+  margin: 3vmin;
+  padding: 0;
+  border: 0.26666667vmin solid #c8ddee;
+  border-radius: 1.5vmin;
+  box-shadow: 0 0 1.8vmin rgb(0 0 0/20%);
+}
+.score-info-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #edf3f9;
+  border-top-left-radius: 1.5vmin;
+  border-top-right-radius: 1.5vmin;
+  font-size: 4vmin;
+  font-weight: 700;
+  line-height: 8vmin;
+  color: #000000;
+}
+.score-info-content {
+  padding-bottom: 2vmin;
+}
+.score-info-content ul {
+  padding: 0 3vmin;
+  list-style: none;
+}
+.score-info-content .score-info-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 4.26666667vmin;
+  font-weight: 700;
+  line-height: 8vmin;
+  border-bottom: 0.26666667vmin solid #dadada;
+  border-color: #c3c3c3;
+  overflow: hidden;
+}
+.score-info-item {
+  width: 95%;
+  padding: 0;
+  margin: 2vmin 0;
+  border-bottom: 0;
+}
+.score-info-item-3,
+.score-info-item-2,
+.score-info-item-1 {
+  margin-bottom: 2px;
+}
+.score-info-item-about {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  border-bottom: 0;
+}
+.score-info-time {
+  width: 27vmin;
+  font-size: 3.6vmin;
+  font-weight: normal;
+  line-height: 6vmin;
+  color: #999;
+  order: 1;
+}
+.score-info-result {
+  width: 16vmin;
+  background: #e8f6e8;
+  padding: 2px 5px;
+  border-radius: 10vmin;
+  font-size: 3.6vmin;
+  /* font-weight: normal; */
+  line-height: 4.8vmin;
+  color: #19be6b;
+  /* color: red; */
+  text-align: center;
+  order: 2;
+}
+.score-info-list i {
+  width: 2.4vmin;
+  height: 2.4vmin;
+  margin-right: 1.5vmin;
+  border-left: 0.4vmin solid #333;
+  border-bottom: 0.4vmin solid #333;
+  transform: rotate(135deg);
+}
+.score-info-extra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vmin 0;
+  font-size: 4.26666667vmin;
+  line-height: 8vmin;
+  border-bottom: 0.26666667vmin solid #dadada;
+  border-color: #c3c3c3;
+}
+.score-info-extra-label {
+  color: #999;
+}
+.score-info-extra-value {
+  color: #000;
+}
+
+.tips {
+  padding: 3vmin;
+  margin: 3vmin;
+  border-radius: 1.5vmin;
+  box-shadow: 0 0 1.8vmin rgb(0 0 0/20%);
+}
+.tips span {
+  font-size: 4vmin;
+  color: #a3a3a3;
+  text-align: justify;
+}
+
+.btn {
+  margin: 2vmin auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-back {
+  display: block;
+  width: 100%;
+  height: 10vmin;
+  background: #003f7e;
+  line-height: 10vmin;
+  margin: 0 3vmin;
+  box-shadow: 0 0 1.8vmin rgb(0 0 0/20%);
+  border: none;
+  border-radius: 1.5vmin;
+  font-size: 4vmin;
+  color: #fff;
+  text-align: center;
+  /* letter-spacing: .5em; */
+}
+.btn-2 {
+  display: block;
+  width: 100%;
+  height: 10vmin;
+  background: none;
+  line-height: 10vmin;
+  margin: 0 3vmin;
+  box-shadow: 0 0 1.8vmin rgb(0 0 0/20%);
+  border: 0.26666667vmin solid #003f7e;
+  border-radius: 1.5vmin;
+  font-size: 4vmin;
+  color: #003f7e;
+  text-align: center;
+}
